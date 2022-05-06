@@ -42,15 +42,15 @@ A simple gif showing the game running:
 
 2. The project uses Object Oriented Programming techniques.This project has added class Obstacle, defined in obstacle.cpp and obstacle.h.
 
-4. Classes use appropriate access specifiers for class members. As shown in obstacle.h from line 9 to line 64, classifiers are clearly identified.
+3. Classes use appropriate access specifiers for class members. As shown in obstacle.h from line 9 to line 64, classifiers are clearly identified.
 
-6. Class constructors utilize member initialization lists. As shown in obstacle.cpp line 6-19.
+4. Class constructors utilize member initialization lists. As shown in obstacle.cpp line 6-19.
 <image src="img/listinit.png"/>
 
-8. Classes abstract implementation details from their interfaces.
-9. Classes encapsulate behavior.
-10. Overloaded functions allow the same function to operate on different parameters.
-11. The project makes use of references in function declarations.
+5. Classes abstract implementation details from their interfaces. All member functions are clearly described in comments.
+6. Classes encapsulate behavior. Obstacle functionalities and data are grouped into Obstacle class. No user access to private member data directly instead of using getter functions. Such the functions defined as shown in obstacle.h line 22-24.
+7. Overloaded functions allow the same function to operate on different parameters. Function Obstacle::collision() and Obstacle::collision(const int &, const int &) is overloaded to detect both wall and snake collision with obstacle. Defined in obstacle.h linen 55-56.
+8. The project makes use of references in function declarations. The overloaded function Obstacle::collision(const int &, const int &) takes reference of the snake's head position. Also void Obstacle::cutSnakeInHalf(Snake &snake) in obstacle.h line 59 takes reference to the snake object to directly modify the snake object. 
 
 
 
