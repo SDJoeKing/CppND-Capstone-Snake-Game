@@ -4,8 +4,12 @@ This is the Capstone project in the [Udacity C++ Nanodegree Program](https://www
 
 ## Project Description
 
-In this project, additional features are added to the original snake game, making it a bit more challenging. The player now has to eat food while avoiding a autonomously moving and bouncing obstacle squre, which grows and changes behaviour patterns every time the snake eats food. To dial down the difficulty, every 10 times snake eats food, the obstacle will shrink back to default size. Additionally, every time the snake's head bumps into the obstacle, the snake will be cut in half (just for fun). If the snake does not own any body part when hit by obstacle, it will die. Hit at snake's body does not cause damage. A simple gif showing the game running:
-<img src="snake.gif"/>
+In this project, additional features are added to the original snake game, making it a bit more challenging. The player now has to eat food while avoiding a autonomously moving and bouncing obstacle squre, which grows and changes behaviour patterns every time the snake eats food. To dial down the difficulty, every 10 times snake eats food, the obstacle will shrink back to default size. Additionally, every time the snake's head bumps into the obstacle, the snake will be cut in half (just for fun). If the snake does not own any body part when hit by obstacle, it will die. Hit at snake's body does not cause damage. 
+
+The project was built based on the origianl snake game, with various modifications on Game, Renderer and Snake classes. The Controller class was not changed. One additional class was added, namely the Obstacle class which interact with the screen and snake instance, while new game mechanisms are added to Game and renderer classes. 
+
+A simple gif showing the game running:
+<img src="img/snake.gif"/>
 
 ## Dependencies for Running Locally (same as original Repo from [Udacity CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game))
 * cmake >= 3.7
@@ -32,11 +36,10 @@ In this project, additional features are added to the original snake game, makin
 
 ## Rubric points that are addressed in this project
 
-1. The project demonstrates an understanding of C++ functions and control structures.
+1. The project demonstrates an understanding of C++ functions and control structures. if/else control and switch are implemented to check boundary collisions, such as in obstacle.cpp, Obstacle::bounce(int):
+<image src="img/switch.png"/>
+<image src="img/ifelse.png"/>
 
-ASDAS
-
-ASDSD
 
 
 
