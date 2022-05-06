@@ -1,14 +1,13 @@
-# CPPND: Capstone Snake Game Example
+# CPPND: Capstone Project Snake Game with added features
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+This is the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
-<img src="snake_game.gif"/>
+## Project Description
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
+In this project, additional features are added to the original snake game, making it a bit more challenging. The player now has to eat food while avoiding a autonomously moving and bouncing obstacle squre, which grows and changes behaviour patterns every time the snake eats food. To dial down the difficulty, every 10 times snake eats food, the obstacle will shrink back to default size. Additionally, every time the snake's head bumps into the obstacle, the snake will be cut in half (just for fun). If the snake does not own any body part when hit by obstacle, it will die. A simple gif showing the game running:
+[Peek 2022-05-06 11-32](https://user-images.githubusercontent.com/69092110/167115654-f2f46d16-c1d1-4c3c-ae88-6eea096e611c.gif)
 
-In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
-
-## Dependencies for Running Locally
+## Dependencies for Running Locally (same as original Repo from [Udacity CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game))
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -29,18 +28,24 @@ In this project, you can build your own C++ application or extend this Snake gam
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
+5. No additional libraries are required other than specified above.
+
+## Rubric points that are addressed in this project
+
+1. The project demonstrates an understanding of C++ functions and control structures.
+asdadasda
+
+2. The project uses Object Oriented Programming techniques.
+asdas
+3. Classes use appropriate access specifiers for class members.
+4. Class constructors utilize member initialization lists.
+5. Classes abstract implementation details from their interfaces.
+6. Classes encapsulate behavior.
+7. Overloaded functions allow the same function to operate on different parameters.
+8. The project makes use of references in function declarations.
 
 
-## CC Attribution-ShareAlike 4.0 International
 
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
