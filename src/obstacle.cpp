@@ -68,7 +68,7 @@ void Obstacle::move(Snake &snake)
        updatePosition();
     }else if (collision(x, y)){
         // check snake collision if true shrink snake
-        int scale = 10;
+        int scale = 20;
         
          bounce(scale);
          updatePosition();
