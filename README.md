@@ -36,21 +36,21 @@ A simple gif showing the game running:
 
 ## Rubric points that are addressed in this project
 
-1. The project demonstrates an understanding of C++ functions and control structures. if/else control and switch are implemented to check boundary collisions, such as in obstacle.cpp, Obstacle::bounce(int):
+1. The project demonstrates an understanding of C++ functions and control structures. if/else control and switch are implemented to check boundary collisions, the functions are organised. Such as in obstacle.cpp, Obstacle::bounce(int) and Obstacle::move(Snake &), lines from 25-89:
 <image src="img/switch.png"/>
 <image src="img/ifelse.png"/>
 
+2. The project uses Object Oriented Programming techniques.This project has added class Obstacle, defined in obstacle.cpp and obstacle.h.
 
+4. Classes use appropriate access specifiers for class members. As shown in obstacle.h from line 9 to line 64, classifiers are clearly identified.
 
+6. Class constructors utilize member initialization lists. As shown in obstacle.cpp line 6-19.
+<image src="img/listinit.png"/>
 
-2. The project uses Object Oriented Programming techniques.
-asdas
-3. Classes use appropriate access specifiers for class members.
-4. Class constructors utilize member initialization lists.
-5. Classes abstract implementation details from their interfaces.
-6. Classes encapsulate behavior.
-7. Overloaded functions allow the same function to operate on different parameters.
-8. The project makes use of references in function declarations.
+8. Classes abstract implementation details from their interfaces.
+9. Classes encapsulate behavior.
+10. Overloaded functions allow the same function to operate on different parameters.
+11. The project makes use of references in function declarations.
 
 
 
