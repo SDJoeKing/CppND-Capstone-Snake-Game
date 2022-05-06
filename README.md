@@ -9,6 +9,7 @@ In this project, additional features are added to the original snake game, makin
 The project was built based on the origianl snake game, with various modifications on Game, Renderer and Snake classes. The Controller class was not changed. One additional class was added, namely the Obstacle class which interact with the screen and snake instance, while new game mechanisms are added to Game and renderer classes. 
 
 A simple gif showing the game running:
+
 <img src="img/snake.gif"/>
 
 ## Dependencies for Running Locally (same as original Repo from [Udacity CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game))
