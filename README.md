@@ -5,7 +5,7 @@ This is the Capstone project in the [Udacity C++ Nanodegree Program](https://www
 ## Project Description
 
 In this project, additional features are added to the original snake game, making it a bit more challenging. The player now has to eat food while avoiding a autonomously moving and bouncing obstacle squre, which grows and changes behaviour patterns every time the snake eats food. To dial down the difficulty, every 10 times snake eats food, the obstacle will shrink back to default size. Additionally, every time the snake's head bumps into the obstacle, the snake will be cut in half (just for fun). If the snake does not own any body part when hit by obstacle, it will die. A simple gif showing the game running:
-[Peek 2022-05-06 11-32](https://user-images.githubusercontent.com/69092110/167115654-f2f46d16-c1d1-4c3c-ae88-6eea096e611c.gif)
+[Peek 2022-05-06 11-32](https://github.com/SDJoeKing/CppND-Capstone-Snake-Game/peek 2022-05-06 11-32.gif)
 
 ## Dependencies for Running Locally (same as original Repo from [Udacity CppND-Capstone-Snake-Game](https://github.com/udacity/CppND-Capstone-Snake-Game))
 * cmake >= 3.7
