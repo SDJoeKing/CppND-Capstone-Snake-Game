@@ -54,7 +54,7 @@ private:
     // private functions
     bool collision(); // detect if collision happened to wall and or snake head
     bool collision(const int &x, const int &y); // OVERLOADED function collision check if head of snake collide into the obstacle
-    void updatePosition();
+    void updatePosition(); // update the position of the obstacle 
     void bounce(int); // helper function to change internal state
     void cutSnakeInHalf(Snake &snake);
 
